@@ -1,0 +1,209 @@
+@media only screen and (max-width: 1100px) {
+    .search{
+        width: 25%;
+    }
+    .contain_header{
+        background: rgb(11,11,10);
+        background: linear-gradient(120deg, rgba(11,11,10,1) 38%,  rgba(185, 148, 243, 0.7) 72%); 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .part_one_one{
+        color:white
+    }
+    .part_one_two{
+        color:white
+    }
+    .part_one_three{
+        color:white
+    }
+    .contain_title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+        font-size: 15px;
+    }
+    .logoOne{
+        width: 65%;
+    }
+    .nav_bar{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 1%;
+        height: 100px;
+    }
+    .contain_button{
+        margin-left: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 70%;
+    }
+    .but{
+      background-color:rgb(253, 197, 75);
+      border:none; 
+      margin-top: 5%;
+      margin-left: 5%;
+      height: 50px;
+      border-radius:7px;
+      display: flex;
+      color: black;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 13px;
+      width: 35%;
+    }
+    .contain_img_car{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width:100%
+    }
+    .contain_searchbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 90%;
+        height: 50px;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+    }
+    .part_one_search{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width:25%;
+    }
+    .part_two_search{
+        width:60%;
+    
+    }
+    .searchhere{
+       width: 100%;
+       border:none;
+       height: 40px;
+       font-size: 16px;
+    }
+    .searchhere:focus{
+        outline: none;
+    }
+    
+    
+}
+
+
+
+@media only screen and (min-width: 1101px) {
+    .contain_header{
+    
+        background: rgb(11,11,10);
+        background: linear-gradient(120deg, rgba(11,11,10,1) 38%,  rgba(185, 148, 243, 0.7) 72%); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contain_searchbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 40%;
+        height: 50px;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+    }
+    .part_one_search{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width:25%;
+    }
+    .part_two_search{
+        width:60%;
+    
+    }
+    .searchhere{
+       width: 100%;
+       border:none;
+       height: 40px;
+       font-size: 16px;
+    }
+    .searchhere:focus{
+        outline: none;
+    }
+    .search{
+        width: 25%;
+    }
+    
+    .contain_header{
+        background-color: black;
+        
+    }
+    .part_one_one{
+        color:white
+    }
+    .part_one_two{
+        color:white
+    }
+    .part_one_three{
+        color:white
+    }
+    .contain_title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+        font-size: 15px;
+    }
+    .logoOne{
+        width: 60%;
+    }
+    .nav_bar{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 1%;
+        height: 100px;
+    }
+    .contain_button{
+        margin-left: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 50%;
+    }
+    .but{
+      background-color:rgb(255, 207, 102);
+      border:none; 
+      margin-top: 5%;
+      margin-left: 5%;
+      height: 50px;
+      width:20%;
+       color: black;
+      border-radius:7px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 13px;
+    }
+    .contain_img_car{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width:30%
+    }
+    
+}

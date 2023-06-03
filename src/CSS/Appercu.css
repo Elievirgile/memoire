@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1100px) {
+    .contain_appercu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .appercu_header{
+        background: rgb(11,11,10);
+        background: linear-gradient(120deg, rgba(11,11,10,1) 38%,  rgba(185, 148, 243, 0.7) 72%); 
+        width: 100%;
+    }
+
+    .tabledematiere{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contain_overview{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .overview{
+        width: 95%;
+    }
+    .butstart{
+        margin-top: 5%;
+    }
+    .teacherlog{
+        width:25%;
+    }
+    .butstart{
+        background-color:rgb(253, 197, 75);
+        border:none; 
+        margin-right: auto;
+        margin-left: auto;
+        height: 50px;
+        border-radius:7px;
+        display: flex;
+        color: black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        width: 70%;
+    }
+}
+
+
+
+@media only screen and (min-width: 1101px) {
+    .teacherlog{
+        width:15%;
+    }
+    .butstart{
+        background-color:rgb(253, 197, 75);
+        border:none; 
+        margin-right: auto;
+        margin-left: auto;
+        height: 50px;
+        border-radius:7px;
+        display: flex;
+        color: black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        width: 30%;
+    }
+    .contain_appercu{
+        width:'100%';
+        display: flex;
+        flex-direction: column;
+
+    }
+    .appercu_header{
+        background: rgb(11,11,10);
+        background: linear-gradient(120deg, rgba(11,11,10,1) 38%,  rgba(185, 148, 243, 0.7) 72%); 
+        width: 100%;
+    }
+    .overview{
+        width: 70%;
+    }
+
+    .tabledematiere{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contain_overview{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
